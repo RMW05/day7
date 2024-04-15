@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('nightsky.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .content {
+    text-align: center;
+    padding-top: 100px; 
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  p {
+    font-size: 24px;
+  }
